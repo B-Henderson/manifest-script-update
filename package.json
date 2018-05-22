@@ -1,0 +1,31 @@
+{
+  "name": "manifest-script-update",
+  "version": "1.0.0",
+  "description": "Node script to replace script strings from a webpack manifest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-Henderson/manifest-script-update.git"
+  },
+  "keywords": [
+    "webpack",
+    "manifest",
+    "string",
+    "replacement"
+  ],
+  "author": "Ben Henderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/B-Henderson/manifest-script-update/issues"
+  },
+  "homepage": "https://github.com/B-Henderson/manifest-script-update#readme",
+  "dependencies": {
+    "glob-fs": "^0.1.7",
+    "glob-fs-gitignore": "^0.1.6",
+    "graceful-fs": "^4.1.11",
+    "replace-in-file": "^3.4.0"
+  }
+}
